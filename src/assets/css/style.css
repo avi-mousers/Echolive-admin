@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body{
     background: #fafdff;
+    font-family: "Inter", sans-serif;
 }
 
 ::selection {
@@ -62,6 +65,7 @@ body{
 
 .select2.select2-container.select2-container--default {
     width: 100% !important;
+    font-family: "Inter", sans-serif;
 }
 
 .select2-container--default .select2-selection--single {

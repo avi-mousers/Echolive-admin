@@ -1,6 +1,6 @@
 <template>
   <div class="flex min-h-screen justify-center items-center bg-gradient-to-br from-custom1 to-custom2 font-fontInter">
-    <div class="w-full max-w-[326px] max-md:max-w-full md:p-9 p-6 bg-white rounded-[0.3rem] shadow-xl m-6 xxl:m-4_5rem">
+    <div class="w-full max-w-[500px] max-md:max-w-full md:p-9 p-6 bg-white rounded-[0.3rem] shadow-xl m-6 xxl:m-4_5rem">
       <div class="text-center mb-9">
         <router-link to="" class="inline-block mb-6">
           <img :src="logo" alt="Logo" class="h-[150px] mx-auto" />

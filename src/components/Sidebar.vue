@@ -3,11 +3,11 @@
     class="sidebar w-[260px] h-screen bg-darkBlue text-white shadow-lg top-0 left-0 z-9999 flex flex-col overflow-y-auto transition-all duration-300 relative">
     <!-- Logo -->
     <router-link to="/dashboard" class="block px-[22px] sticky top-0 h-[70px] text-left">
-      <span class="logo-light hidden dark:block">
-        <span class="logo-lg h-[70px] flex items-center">
+      <span class="logo-light  dark:block">
+        <span class="logo-lg hidden lg:flex h-[70px] flex items-center">
           <img :src="logo" alt="logo" class="h-[50px]" />
         </span>
-        <span class="logo-sm hidden h-[70px] items-center">
+        <span class="logo-sm flex lg:hidden  block-sm h-[70px] items-center">
           <img :src="logoSm" alt="small logo" class="w-[30px]" />
         </span>
       </span>
@@ -25,7 +25,7 @@
     <!-- Sidebar Content -->
     <div class="flex-1 overflow-y-auto">
       <ul class="flex flex-col gap-1 mb-4">
-        <li class="text-[10px] tracking-wider font-bold py-2 px-[26px] uppercase text-gray-400">Dash</li>
+        
 
         <li class="px-[10px]">
           <router-link to="/dashboard" v-slot="{ isActive }"
@@ -114,7 +114,7 @@ body.sidebar-collapsed .sidebar:hover .logo-lg {
     width: 70px !important;
   }
 
-  body .sidebar ul li:first-child,
+  
   body .sidebar .toggle-button,
   body .sidebar .logo-lg,
   body .sidebar .sidebar-label {

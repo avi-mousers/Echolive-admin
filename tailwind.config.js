@@ -26,6 +26,7 @@ export default {
       fontFamily: {
         fontInter: ['"Inter"', 'sans-serif'],
       },
+      
       spacing: {
         '4_5rem': '4.5rem',
       },
